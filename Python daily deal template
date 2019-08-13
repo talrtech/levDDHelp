@@ -13,11 +13,10 @@ lender3 =  input("Insert third lender: ")
 borrower3 = input("Intsert third borrower: ")
 location3 = input("Insert third location: ")
 
-#this is the exact format I am looking for
 print("Yesterday's Top Financings in NYC", "\n")
-print("1.", loanAmount1, "from", lender1, "to", borrower1, "in", location1, "\n")
-print("2.", loanAmount2, "from", lender2, "to", borrower2, "in", location2, "\n")
-print("3.", loanAmount3, "from", lender3, "to", borrower3, "in", location3, "\n")
+print("1. $", loanAmount1, "M", " from ", lender1, " to ", borrower1, " in ", location1, "\n", sep='')
+print("2. $", loanAmount2, "M"," from ", lender2, " to ", borrower2, " in ", location2, "\n", sep='')
+print("3. $", loanAmount3, "M", " from ", lender3, " to ", borrower3, " in ", location3, "\n", sep='')
 print("\n")
 print("Data supplied by PincusCo Media")
 

@@ -1,0 +1,23 @@
+loanAmount1 = (input("Insert first loan amount: "))
+lender1 =  input("Insert first lender: ")
+borrower1 = input("Insert first borrower: ")
+location1 = input("Insert first location: ")
+
+loanAmount2 = (input("Insert second loan amount: "))
+lender2 =  input("Insert second lender: ")
+borrower2 = input("Insert second borrower: ")
+location2 = input("Insert second location: ")
+
+loanAmount3 = (input("Insert third loan amount: "))
+lender3 =  input("Insert third lender: ")
+borrower3 = input("Intsert third borrower: ")
+location3 = input("Insert third location: ")
+
+#this is the exact format I am looking for
+print("Yesterday's Top Financings in NYC", "\n")
+print("1.", loanAmount1, "from", lender1, "to", borrower1, "in", location1, "\n")
+print("2.", loanAmount2, "from", lender2, "to", borrower2, "in", location2, "\n")
+print("3.", loanAmount3, "from", lender3, "to", borrower3, "in", location3, "\n")
+print("\n")
+print("Data supplied by PincusCo Media")
+
